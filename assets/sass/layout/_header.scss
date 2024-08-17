@@ -1,0 +1,27 @@
+/*header*/
+
+.nav__logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    background-color: $color_green2;
+}
+.nav__title{
+    color: $color_white;
+    font-family: $font1;
+    font-size: $font_size1;
+    font-weight: $font_weight1;
+    
+}
+.nav-item a:hover{
+    color: $color_coffee;
+}
+
+.navbar__link{
+    color: $color_white;
+    font-family: $font1;
+    font-size: $font_size2;
+    font-weight: $font_weight1;
+}
+/*header*/

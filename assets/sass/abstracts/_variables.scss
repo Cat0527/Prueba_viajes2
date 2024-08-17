@@ -1,0 +1,52 @@
+$color_lightSky: #E1FAF4;
+$color_green2: #75A82B;
+$color_coffee: #8A520A;
+$color_green: #82A801;
+$color_lightBrown: #BF9641;
+$color_grey: #CCCCCC;
+$color_white: #FFFFFF;
+$color_black: #000000;
+$font1: "Poppins", sans-serif;
+$font2: "Fira Sans", sans-serif;
+$font_weight1: 600;
+$font_weight2: 300;
+$font_weight3: 800;
+$font_weigth4: 200;
+$font_weigth5: 400;
+$font_size0: 25px;
+$font_size1: 20px;
+$font_size2: 18px;
+$font_size3: 16px;
+$font_size4: 15px;
+
+/*Media queris*/
+
+@media (max-width: 768px){
+    .navbar__link{
+        font-size: $font_size3;
+        font-weight: $font_weight2;
+    }
+}
+
+@media (max-width: 768px) {
+    .img__carousel{
+        height: 300px;
+    }
+}
+@media (max-width: 768px){
+    .box__info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .img__history{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 768px){
+    .container4{
+        margin-left: 0;
+    }
+}
